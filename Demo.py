@@ -27,9 +27,9 @@ def clicked():
     delta = abs(now_date.date() - cal.get_date())
     messagebox.showinfo('Message title', 'Welcome to Tkinter, ' + txt.get())
     if now_date.date() != cal.get_date():
-        messagebox.showinfo('Message title', ' You lived in this world ' + str(delta))
+        messagebox.showinfo('Message title', ' You lived in The World ' + str(delta))
     else:
-        messagebox.showinfo('Message title', 'Welcome to the World, You lived in this world ')
+        messagebox.showinfo('Message title', 'Welcome to the World, You born today ')
 
 
 btn = Button(window, text="Accept", command=clicked)
