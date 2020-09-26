@@ -20,7 +20,7 @@ txt.grid(column=1, row=0)
 lb_date = Label(window, text ="Input your birth: ")
 lb_date.grid(column=0, row=2)
 
-cal = DateEntry(font="Arial 14",year=1999,date_pattern='dd/mm/y')
+cal = DateEntry(font="Arial 14",year=2020,date_pattern='dd/mm/y')
 cal.grid(column=1,row=2)
 
 def clicked():
